@@ -456,6 +456,10 @@
       margin: 16px auto 28px;
     }
 
+    .contact-actions {
+      justify-content: center;
+    }
+
     footer {
       padding: 25px 0;
       border-top: 1px solid var(--border);
