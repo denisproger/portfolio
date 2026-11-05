@@ -24,6 +24,8 @@ Live demo: <https://denisproger.github.io/preply-finance/>
 A multi-page sneaker shop built with React, TypeScript, React Router and Vite: search, filters, product gallery, cart and checkout with form validation.
 Live demo: <https://denisproger.github.io/product-page/>
 
+![Stride Co. sneaker shop](images/stride.png)
+
 ## Built with
 
 - HTML5 (semantic markup)
@@ -39,7 +41,8 @@ portfolio/
 ├── style.css       # styles
 ├── script.js       # mobile menu and footer year
 └── images/
-    └── ledger.png  # project preview
+    ├── ledger.png  # Ledger preview
+    └── stride.png  # Sneaker Shop preview
 ```
 
 ## Run locally
