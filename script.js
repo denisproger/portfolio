@@ -34,6 +34,31 @@ document.addEventListener("click", (event) => {
   }
 });
 
+// Highlight the nav link of the section currently in view
+const sectionLinks = new Map(
+  [...navLinks.querySelectorAll('a[href^="#"]')].map((link) => [
+    link.getAttribute("href").slice(1),
+    link,
+  ])
+);
+
+const sectionObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+
+      sectionLinks.forEach((link) => link.classList.remove("active"));
+      sectionLinks.get(entry.target.id)?.classList.add("active");
+    });
+  },
+  { rootMargin: "-45% 0px -50% 0px" }
+);
+
+sectionLinks.forEach((_, id) => {
+  const section = document.getElementById(id);
+  if (section) sectionObserver.observe(section);
+});
+
 // Automatically update the copyright year
 document.querySelector("#year").textContent =
   new Date().getFullYear();
