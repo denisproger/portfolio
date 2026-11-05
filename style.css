@@ -88,6 +88,10 @@
       color: white;
     }
 
+    .nav-links a.active {
+      color: var(--accent-light);
+    }
+
     .menu-toggle {
       display: none;
       background: transparent;
