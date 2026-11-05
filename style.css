@@ -349,6 +349,19 @@
         linear-gradient(135deg, #202c49, #121a2d);
     }
 
+    .project-preview.has-image {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .project-preview.has-image img {
+      display: block;
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      object-position: top left;
+    }
+
     .preview-window {
       width: 100%;
       max-width: 250px;
