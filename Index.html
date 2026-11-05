@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Denys Melnyk — Junior Frontend Developer portfolio." />
+  <title>Denys Melnyk | Frontend Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#home">D<span>.</span></a>
+
+      <button class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <p class="eyebrow">Junior Frontend Developer</p>
+
+          <h1>Hi, I'm <span>Denys.</span><br>
+            I build for the web.</h1>
+
+          <p class="hero-description">
+            I create responsive, user-friendly websites
+            with clean code and thoughtful design.
+            Currently learning, building projects, and
+            growing as a frontend developer.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore my work ↗
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Get in touch
+            </a>
+          </div>
+
+          <div class="availability">
+            <span class="status-dot"></span>
+            Open to Junior / Trainee opportunities
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <span class="section-label">About me</span>
+          <h2>Building ideas into the web.</h2>
+
+          <p>
+            I'm an aspiring frontend developer with a
+            foundation in HTML, CSS, and JavaScript.
+            I enjoy turning ideas into clean,
+            responsive interfaces.
+          </p>
+
+          <p>
+            My experience in teaching has helped me
+            develop strong communication skills,
+            explain complex concepts clearly, and
+            approach problems in a structured way.
+            I'm currently expanding my technical
+            skills through hands-on projects.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>A little about me</h3>
+
+          <div class="fact">
+            <strong>Location</strong>
+            <span>Brno, Czech Republic</span>
+          </div>
+
+          <div class="fact">
+            <strong>Focus</strong>
+            <span>Frontend Development</span>
+          </div>
+
+          <div class="fact">
+            <strong>Learning</strong>
+            <span>JavaScript, React</span>
+          </div>
+
+          <div class="fact">
+            <strong>Languages</strong>
+            <span>Ukrainian - Native, English - C2, Czech - A2</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">My toolkit</span>
+          <h2>Technologies & skills</h2>
+          <p class="section-description">
+            Technologies I use and am currently
+            developing my skills in.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML5</h3>
+            <p>Semantic structure</p>
+          </article>
+
+          <article class="skill">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts</p>
+          </article>
+
+          <article class="skill">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Logic and interactivity</p>
+          </article>
+
+          <article class="skill">
+            <div class="skill-icon">🔧</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Selected work</span>
+          <h2>Featured projects</h2>
+          <p class="section-description">
+            A selection of projects where I put my
+            skills into practice.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project">
+            <div class="project-preview">
+              <div class="preview-window">
+                <div class="window-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="preview-line short"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <h3>Task Manager</h3>
+              <p>
+                A task management app with task creation,
+                filtering, and local data storage.
+              </p>
+
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/YOUR-USERNAME/task-manager"
+                   target="_blank" rel="noopener noreferrer">
+                  GitHub ↗
+                </a>
+                <a href="https://YOUR-DEMO-URL.example"
+                   target="_blank" rel="noopener noreferrer">
+                  Live Demo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-preview">
+              <div class="preview-window">
+                <div class="window-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <h3>E-commerce Catalog</h3>
+              <p>
+                A product catalog featuring search,
+                sorting, filters, and a shopping cart.
+              </p>
+
+              <div class="tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS</span>
+                <span class="tag">API</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/YOUR-USERNAME/shop"
+                   target="_blank" rel="noopener noreferrer">
+                  GitHub ↗
+                </a>
+                <a href="https://YOUR-DEMO-URL.example"
+                   target="_blank" rel="noopener noreferrer">
+                  Live Demo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-preview">
+              <div class="preview-window">
+                <div class="window-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="preview-line short"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+                <div class="preview-line"></div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <h3>Analytics Dashboard</h3>
+              <p>
+                A dashboard with statistics, charts,
+                and reusable interface components.
+              </p>
+
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">CSS</span>
+                <span class="tag">API</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/YOUR-USERNAME/dashboard"
+                   target="_blank" rel="noopener noreferrer">
+                  GitHub ↗
+                </a>
+                <a href="https://YOUR-DEMO-URL.example"
+                   target="_blank" rel="noopener noreferrer">
+                  Live Demo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <span class="section-label">Contact</span>
+        <h2>Let's build something great.</h2>
+
+        <p class="section-description">
+          I'm looking for a Junior or Trainee Frontend
+          Developer opportunity. Have a project or
+          an opportunity in mind? Let's talk.
+        </p>
+
+        <a class="btn btn-primary"
+           href="mailto:denis.mel3841@gmail.com">
+          Send me an email ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Denys Melnyk</p>
+      <p>Designed & built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
