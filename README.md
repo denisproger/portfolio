@@ -10,23 +10,23 @@ A single-page site with the following sections:
 
 - **Home** — intro and availability for Junior / Trainee roles
 - **About** — background, focus, and languages
-- **Skills** — HTML5, CSS3, JavaScript, Git & GitHub
+- **Skills** — HTML5, CSS3, JavaScript, TypeScript, React, Git & GitHub
 - **Projects** — selected work with links to code and live demos
 - **Contact** — get in touch by email
 
 ## Featured projects
-
-**[Ledger — Preply & Personal Finance](https://github.com/denisproger/preply-finance)**
-A personal finance web app for tracking Preply tutoring income, side income, expenses, budgets and savings, with automatic USD/EUR → CZK conversion.
-Live demo: <https://denisproger.github.io/preply-finance/>
-
-![Ledger dashboard](images/ledger.png)
 
 **[Stride Co. — Sneaker Shop](https://github.com/denisproger/product-page)**
 A multi-page sneaker shop built with React, TypeScript, React Router and Vite: search, filters, product gallery, cart and checkout with form validation.
 Live demo: <https://denisproger.github.io/product-page/>
 
 ![Stride Co. sneaker shop](images/stride.png)
+
+**[Ledger — Preply & Personal Finance](https://github.com/denisproger/preply-finance)**
+A finance tracker I use in my own tutoring work: students, lessons, Preply income and expenses, with automatic USD/EUR → CZK conversion.
+Live demo: <https://denisproger.github.io/preply-finance/>
+
+![Ledger dashboard](images/ledger.png)
 
 ## Built with
 
@@ -61,3 +61,4 @@ cd portfolio
 
 - Email: [denis.mel3841@gmail.com](mailto:denis.mel3841@gmail.com)
 - GitHub: [@denisproger](https://github.com/denisproger)
+- LinkedIn: [Denys Melnyk](https://www.linkedin.com/in/denys-melnyk-674832384)
