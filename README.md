@@ -42,6 +42,7 @@ portfolio/
 ├── index.html      # page markup
 ├── style.css       # styles
 ├── script.js       # mobile menu and footer year
+├── favicon.svg     # site icon
 └── images/
     ├── ledger.png  # Ledger preview
     └── stride.png  # Sneaker Shop preview
