@@ -12,13 +12,17 @@ A single-page site with the following sections:
 - **Projects** — selected work with links to code and live demos
 - **Contact** — get in touch by email
 
-## Featured project
+## Featured projects
 
 **[Ledger — Preply & Personal Finance](https://github.com/denisproger/preply-finance)**
 A personal finance web app for tracking Preply tutoring income, side income, expenses, budgets and savings, with automatic USD/EUR → CZK conversion.
 Live demo: <https://denisproger.github.io/preply-finance/>
 
 ![Ledger dashboard](images/ledger.png)
+
+**[Stride Co. — Sneaker Shop](https://github.com/denisproger/product-page)**
+A multi-page sneaker shop built with React, TypeScript, React Router and Vite: search, filters, product gallery, cart and checkout with form validation.
+Live demo: <https://denisproger.github.io/product-page/>
 
 ## Built with
 
